@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Colonial";
+  src: url("C:/Users/Kaori/Desktop/PI-Countries-main/client/src/extras/fonts/Colonial.ttf");
+}
+.divStyle {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.filters {
+  font-family: "Colonial";
+  font-size: 20px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(218, 69, 42, 0.837);
+  border: none;
+}
+.filters:hover {
+  transform: scale(1.2);
+  box-shadow: 0 5px 10px rgb(20, 7, 7);
+}

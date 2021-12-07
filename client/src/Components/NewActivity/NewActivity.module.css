@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "FelixTitling";
+  src: url("C:/Users/Kaori/Desktop/PI-Countries-main/client/src/extras/fonts/FelixTitling.ttf");
+}
+
+.containerNew {
+  background-image: url("C:/Users/Kaori/Desktop/PI-Countries-main/client/src/extras/details.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.formNew {
+  background: rgba(0, 0, 255, 0.5);
+  box-shadow: 0 0 15px rgb(0, 0, 255);
+  border-radius: 20%;
+  margin-top: -45px;
+  margin-left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  font-family: "FelixTitling";
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.listNew {
+  justify-content: space-between;
+}
+
+.listNew div {
+  margin-bottom: 10px;
+}
+.button {
+  font-size: 15px;
+  font-family: "FelixTitling";
+  height: 50px;
+  width: 120px;
+  margin-top: 20px;
+  background-color: rgb(58, 54, 54);
+  color: white;
+}
+.buttonHome {
+  margin-left: 110px;
+  font-size: 15px;
+  font-family: "FelixTitling";
+  height: 30px;
+  width: 70px;
+  margin-top: 20px;
+  background-color: rgb(58, 54, 54);
+  color: white;
+}
+.buttonHome:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 10px black;
+}
+.listNew button {
+  margin-top: 10px;
+}
+.listNew button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgb(20, 7, 7);
+}
+.divs {
+  font-family: "FelixTitling";
+}
+.h1 {
+  margin-top: -5px;
+}
+ul {
+  margin-left: -8%;
+}

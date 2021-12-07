@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Filtros";
+  src: url("C:/Users/Kaori/Desktop/PI-Countries-main/client/src/extras/Filtros.otf");
+}
+@font-face {
+  font-family: "The Blacklight";
+  src: url("C:/Users/Kaori/Desktop/PI-Countries-main/client/src/extras/The Blacklight.ttf");
+}
+
+.background {
+  background-image: url("C:/Users/Kaori/Desktop/PI-Countries-main/client/src/extras/landing2.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: -20xp;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: "Filtros";
+  font-size: 80px;
+  letter-spacing: 6px;
+  margin-left: 100px;
+}
+.button {
+  width: 300px;
+  height: 120px;
+  margin-left: 100px;
+  justify-content: center;
+  font-family: "The Blacklight";
+  font-size: 45px;
+  text-align: center;
+  border-radius: 40px;
+  color: rgb(12, 10, 9);
+  background-color: rgba(192, 157, 107, 0.918);
+  border-color: rgba(211, 103, 3, 0.692);
+}
+.button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 5px 10px rgb(20, 7, 7);
+}

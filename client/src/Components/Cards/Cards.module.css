@@ -1,0 +1,13 @@
+.cards {
+  display: inline-block;
+  margin-left: 20px;
+  justify-content: space-between;
+  width: 200 px;
+  height: 200 px;
+  text-align: center;
+  text-decoration: none;
+}
+.cards:hover {
+  transform: scale(1.2);
+  box-shadow: 0 5px 10px rgb(20, 7, 7);
+}

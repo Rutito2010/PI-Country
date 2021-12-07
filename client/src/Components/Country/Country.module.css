@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "The Blacklight";
+  src: url("C:/Users/Kaori/Desktop/PI-Countries-main/client/src/extras/The Blacklight.ttf");
+}
+@font-face {
+  font-family: "Kaldevaderibbon";
+  src: url("C:/Users/Kaori/Desktop/PI-Countries-main/client/src/extras/Kaldevaderibbon.ttf");
+}
+
+.image {
+  height: 200px;
+  width: 400px;
+}
+.background {
+  background-image: url("C:/Users/Kaori/Desktop/PI-Countries-main/client/src/extras/84609825-mapa-mundial-ilustración-vectorial-vendimia.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.h1 {
+  margin-left: 0px;
+  margin-top: 15px;
+}
+.h3 {
+  font-family: "The Blacklight";
+  font-size: 50px;
+}
+
+.h2 {
+  font-family: "The Blacklight";
+  font-size: 50px;
+}
+.h4 {
+  font-family: "The Blacklight";
+  font-size: 40px;
+  display: flexbox;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -50px;
+}
+.data {
+  display: inline-block;
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(139, 41, 5, 0.253);
+  border-radius: 45px;
+}
+.head {
+  display: inline-block;
+  margin-right: 80px;
+  margin-top: -200%;
+}
+.activities {
+  background-color: rgba(184, 135, 11, 0.116);
+}
